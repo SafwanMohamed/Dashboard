@@ -1,0 +1,19 @@
+body {
+    font-family: Roboto,arial;
+    background-color:rgb(226, 237, 242); 
+    z-index: 1;
+    padding-bottom: 20px;
+    position: relative;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0062ff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0042ad;
+}

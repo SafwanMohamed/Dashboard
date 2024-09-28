@@ -1,0 +1,61 @@
+.header {
+    position: fixed;
+    right: 0;
+    left: 12%;
+    top: 0;
+    height: 70px;
+    z-index: 10;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 18px;
+    
+}
+@media (max-width:750px) {
+
+}
+.pic-file {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+.search-bar {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 130px;
+    transition: width .3s;
+    height: 33px;
+    padding-left: 30px;
+    outline: none;
+}
+.bell {
+     width: 18px;
+     margin-right: 12px;
+}
+.right-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2px;
+}
+.bell-container {
+    position: relative;
+    
+}
+.red-circle {
+    background-color: red;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    bottom: 22px;
+    right:  8px;
+    border-radius: 4px;
+}
+.search-bar-container {
+    position: relative;
+}

@@ -11,6 +11,7 @@
     .Dashboard {
       margin-left: 18px;
     }
+    
 }
 
 .inner-grid {
@@ -32,16 +33,10 @@
 }
 @media (max-width:761px) {
     .files-statistics {
-      
-      
-       
+       width: 100%;
     }
 }
-@media (max-width:1000px) {
-    .files-statistics {
-        
-    }
-}
+
 .backgrounds {
     background-color: white;
     font-size: 16px;

@@ -9,7 +9,8 @@
 }
 @media (max-width:761px){
     .Dashboard {
-      margin-left: 18px;
+      margin-left: 20px;
+      margin-top: -13px;
     }
     
 }

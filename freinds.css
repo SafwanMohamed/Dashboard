@@ -10,6 +10,9 @@
     .Dashboard{
 
     }
+    .grid{
+        margin-top: 15px;
+    }
 }
 .title {
     font-size: 33px;
@@ -38,7 +41,7 @@
     border: 2px solid rgb(227, 227, 227);
 }
 .grid {
-    
+    margin-top: 15px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
     row-gap: 20px;

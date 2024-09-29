@@ -1,13 +1,13 @@
 .Dashboard {
     position: absolute;
     left:12.9%;
-    top: 70px;
+    top: 85px;
     width: 86.5%;
     box-sizing: border-box;
     position: relative;
 }
 .grid{
-    left: -2%;
+    left: -1%;
 }
 .backgrounds{
     background-color: white;
